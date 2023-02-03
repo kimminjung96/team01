@@ -16,3 +16,11 @@ git push -u origin main
 3. 클론받은 파일을 최상위로 열기 =>안하면 주금
 4. 팀원은 git switch -c kmj =>이니셜석자
 5. 작업파일 생성
+6. git pull origin develop
+7. git add .
+8. git commit -m "작성내용"
+9. git switch develop =>develop브랜치로 변경되었나 확인
+10. git merge kmj(내브랜치)
+11. git add .
+12. git commit -m "230203-kmj-작성내용"
+13. git push origin develop
