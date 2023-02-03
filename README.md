@@ -75,7 +75,28 @@ git merge 내가 한 브랜치
 디벨럽 브랜치에가서 머지하고 풀하기 
 
 # main : 서비스 브랜치
+```
+---
+배포시
+
+git pull origin develop
+git merge main
+git add .
+git commit -m "배포v5"
+git push origin main
+```
 
 # develop: 개발 브랜치
+```
+--
+개발시
+
+git pull origin develop
+git merge 내브랜치
+git add .
+git commit -m "index.html"
+git push origin develop
+```
+
 
 `https://team01.vercel.app/`
