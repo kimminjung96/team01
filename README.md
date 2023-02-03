@@ -27,8 +27,9 @@ git push -u origin main
 
 
 # head 이동
+git branch main => 로컬에 main이 없으면 생성해줘야 함
 git checkout develop
 git reset -- hard main
-git push -f origin develop
+git push -f origin main
 
 
