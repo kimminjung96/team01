@@ -24,3 +24,11 @@ git push -u origin main
 11. git add .
 12. git commit -m "230203-kmj-작성내용"
 13. git push origin develop
+
+
+# head 이동
+git checkout develop
+git reset -- hard main
+git push -f origin develop
+
+
