@@ -40,8 +40,9 @@ git push -u origin main
 13. git push origin develop
 ```
 
+# 머지 풀 하기로... 
 
-# head 이동
+# head 이동(히스토리가 전부 합병되는 것)
 ```
 git branch main => 로컬에 main이 없으면 생성해줘야 함(있으면 생략)
 git checkout develop
